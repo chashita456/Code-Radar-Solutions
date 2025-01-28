@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main(){
     char ch;
+    scanf("%c",&ch);
     if(ch=='A'||ch=='E'|| ch=='I'||ch=='0'||ch=='U'||ch=='a'||ch=='e'||ch=='i'||ch=='0'||ch=='u'){
         printf("vowel");
     }
