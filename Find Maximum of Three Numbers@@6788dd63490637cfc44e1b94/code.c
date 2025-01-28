@@ -4,19 +4,18 @@ int main(){
     scanf("%d",&a);
     scanf("%d",&b);
     scanf("%d",&c);
-    if(a>b){
-        if(a>c){
-            printf(a);
+    if(a>b && a>c){
+        printf(a);
     }
-    }
-    else if(b>a){
-        if(b>c){
-            printf(b);
-    }
+    else if(b>a && b>c){
+        printf(b);
     }
     else{
         printf(c);
     }
+
+        
+        
     return 0;
     }
-    }
+    
