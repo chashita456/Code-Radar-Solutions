@@ -1,8 +1,9 @@
 #include <stdio.h>
 int main(){
-    int a;
+    int a,b;
     scanf("%d",&a);
-    result=<<a;
+    scanf("%d",&b);
+    result= a<<b;
     printf("%d",result);
     return 0;
 }
