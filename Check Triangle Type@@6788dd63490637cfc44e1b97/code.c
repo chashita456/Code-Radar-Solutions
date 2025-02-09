@@ -4,10 +4,10 @@ int main(){
     scanf("%d",&a);
     scanf("%d",&b);
     scanf("%d",&c);
-    if (a==b && a==c && b==c){
+    if (a==b && a==c){
         printf("Equilateral");
     }
-    else if (a!=b && a!=c && b!=c){
+    else if(a=!b && a=!b && a=!=c){
         printf("Scalene");
     }
     else{
