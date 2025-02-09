@@ -15,6 +15,5 @@ int main(){
         printf("Invalid input");
      }
      return 0;
-
     }
 
