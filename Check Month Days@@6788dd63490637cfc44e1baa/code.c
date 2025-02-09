@@ -2,44 +2,46 @@
 int main(){
     int a;
     scanf("%d",&a);
-    if(a==1){
+    switch(a){
+        case 1:
         printf("31");
-    }
-    else if(a==2){
+        break;
+        case 2:
         printf("28");
-    }
-    else if(a==3){
+        break;
+        case 3:
         printf("31");
-    }
-    else if(a==4){
+        break;
+        case 4:
         printf("30");
-    }
-    else if(a==5){
+        break;
+        case 5:
         printf("31");
-    }
-    else if(a==6){
+        break;
+        case 6:
         printf("30");
-    }
-    else if(a==7){
+        break;
+        case 7:
         printf("31");
-    }
-    else if(a==8){
+        break;
+        case 8:
         printf("31");
-    }
-    else if(a==9){
+        break;
+        case 9:
         printf("30");
-    }
-    else if(a==10){
+        break;
+        case 10:
         printf("31");
-    }
-    else if(a==11){
+        break;
+        case 11:
         printf("30");
-    }
-    else if(a==12){
+        break;
+        case 12:
         printf("31");
-    }
-    else{
+        break;
+        default:
         printf("Invalid month");
+        break;
     }
     return 0;
 }
