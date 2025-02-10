@@ -1,33 +1,35 @@
-#include <stdio.h>
-int main(){
-char operator;
-int num1,num2;
-scanf("%c",&operator);
-scanf("%d",&num1);
-scanf("%d",&num2);
-switch(operator){
-    case '+':
-    printf("%d",num1+num2);
-    break;
-    case '-':
-    printf("%d",num1-num2);
-    break;
-    case '*':
-    printf("%d",num1*num2);
-    break;
-    case '/':
-    if(num2!=0){
-        printf("%d",num1/num2);
+int main() {
+    int  num1, num2;
+    char operator;
+
+    // Taking input for two numbers and the operator
+    printf("Enter two numbers followed by an operator (+, -, *, /): ");
+    scanf("%f %f %c", &num1, &num2, &operator);
+
+    // Perform the calculation based on the operator
+    if (operator == '+') {
+        printf("%d", num1, num2, num1 + num2);
+    } 
+    else if (operator == '-') {
+        printf("%d", num1, num2, num1 - num2);
+    } 
+    else if (operator == '*') {
+        printf("%d", num1, num2, num1 * num2);
+    } 
+    else if (operator == '/') {
+        if (num2 != 0) {
+            printf("%d", num1, num2, num1 / num2);
+        } else {
+            printf("Error! Division by zero is not allowed.\n");
+        }
+    } 
+    else {
+        printf("Invalid operator!\n");
     }
-    else{
-        printf("error!not division by 0");
-    }
-    break;
-    default:
-    printf("invalid operator");
+
+    return 0;
 }
-return 0;
-}
+
     
 
 
