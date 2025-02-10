@@ -1,9 +1,10 @@
 #include<stdio.h>
 int main(){
-    int a;
+    int a,i;
     scanf("%d",&a);
-    for(int i=1;i<=10;i++){
-        printf("axi=%d\n",a*i);
+    for(i=1;i<=10;i++)
+    {
+        printf("a x i = %d\n",a*i);
     }
     return 0;
 }
