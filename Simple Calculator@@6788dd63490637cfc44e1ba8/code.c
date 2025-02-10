@@ -28,6 +28,7 @@ switch(operator){
     printf("invalid operator");
 }
 return 0;
+}
 
     
 
