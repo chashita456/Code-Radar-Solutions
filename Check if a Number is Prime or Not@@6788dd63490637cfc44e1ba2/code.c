@@ -2,7 +2,7 @@
 int main(){
     int a,i,prime=0;
     scanf("%d",&a);
-    for(i=2;i<=n;i++){
+    for(i=2;i<=n/2;i++){
         i%j=0;
         prime=1;
         break;
