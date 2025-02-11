@@ -5,6 +5,7 @@ int main(){
     for(int i;i<=n;i++){
         i%j=0;
         prime=1;
+        break;
     }
     if(prime==0){
         printf("prime");
