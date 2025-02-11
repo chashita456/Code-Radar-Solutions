@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main(){
-    int a,i,prime=0;
+    int a;
     scanf("%d",&a);
-    for(i=2;i<=a/2;i++){
-        i%a=0;
+    for(int i=1;i<=a/2;i++){
+        i%a==0;
         prime=1;
         break;
     }
@@ -11,8 +11,7 @@ int main(){
         printf("Prime");
     }
     else{
-        printf("Not Prime");
+        print("Not Prime");
     }
     return 0;
-
 }
