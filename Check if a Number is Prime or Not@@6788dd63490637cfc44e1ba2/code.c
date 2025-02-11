@@ -2,10 +2,11 @@
 int main(){
     int a;
     scanf("%d",&a);
-    for(int i=1;i<=a/2;i++){
-        i%a==0;
+    for(int i=2;i<=a/2;i++){
+       if(a%i==0){
         prime=1;
         break;
+       }
     }
     if(prime==0){
         printf("Prime");
