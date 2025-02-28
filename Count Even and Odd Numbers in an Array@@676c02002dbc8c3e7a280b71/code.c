@@ -3,7 +3,7 @@ int main(){
     int n;
     scanf("%d",&n);
     int arr[n];
-    for(int i=0;i<=n;i++){
+    for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
     int countodd =0;
@@ -16,12 +16,14 @@ int main(){
             countodd++;
 
         }
-        printf("%d,%d",counteven ,countodd);
+        
     
 
         
 
     }
+    printf("%d,%d",counteven ,countodd);
+    
     return 0;
 }
 
