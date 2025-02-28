@@ -14,7 +14,7 @@ int main()
         sum=sum+digit;
         a=a/10;
     }
-    printf("%d",arr[sum]);
+    printf("%d ",arr[sum]);
 
 
 
