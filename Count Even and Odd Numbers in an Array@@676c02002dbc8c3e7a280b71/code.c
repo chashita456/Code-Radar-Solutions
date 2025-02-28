@@ -10,10 +10,10 @@ int main(){
     int counteven =0;
     for(int i=0;i<=n;i++){
         if(i%2==0){
-            counteven =counteven +1;
+            counteven++;
         }
         else{
-            countodd =countodd +1;
+            countodd++;
 
         }
         printf("%d,%d",counteven ,countodd);
