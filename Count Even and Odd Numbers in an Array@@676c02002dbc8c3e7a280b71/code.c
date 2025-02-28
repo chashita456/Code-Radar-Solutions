@@ -22,7 +22,7 @@ int main(){
         
 
     }
-    printf("%d,%d",counteven ,countodd);
+    printf("%d %d",counteven ,countodd);
     
     return 0;
 }
