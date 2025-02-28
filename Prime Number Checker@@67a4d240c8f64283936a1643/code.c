@@ -17,7 +17,7 @@ int prime( int a){
 
 int main()
 {
-    int a;
+    int a,prime=0;
     scanf("%d",&a);
     prime(a);
 }
