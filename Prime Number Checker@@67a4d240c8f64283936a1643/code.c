@@ -1,23 +1,33 @@
-#include<stdio.h>
-int prime(int a);
-int prime( int a){
-    for(int i=2;i<=a/2;i++){
-        if(a%i==0){
-            prime=0;
-            break;
+#include <stdio.h>
 
+int checkPrime(int num) {
+    if (num <= 1) {
+        return 0; // Numbers less than or equal to 1 are not prime
+    }
+
+    // Loop from 2 to sqrt(num)
+    for (int i = 2; i * i <= num; i++) {
+        if (num % i == 0) {
+            return 0; // If divisible by i, it's not prime
         }
     }
-    if (prime==1){
-        return 1;
-    }
-    else{
-        return 0;
+
+    return 1; // If no divisors are found, it's prime
+}
+
+int main() {
+    int number;
+
+    // Ask for user input
+    printf("Enter a positive number: ");
+    scanf("%d", &number);
+
+    // Call the checkPrime function and print the result
+    if (checkPrime(number)) {
+        printf("%d is a prime number.\n", number);
+    } else {
+        printf("%d is not a prime number.\n", number);
     }
 
-int main()
-{
-    int a,prime=0;
-    scanf("%d",&a);
-    prime(a);
+    return 0;
 }
