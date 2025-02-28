@@ -2,7 +2,7 @@
 #include <math.h>
 
 int is_prime(int n) {
-    // Check if the number is less than or equal to 1 (not prime)
+    // Numbers less than or equal to 1 are not prime
     if (n <= 1) {
         return 0;
     }
@@ -18,19 +18,16 @@ int is_prime(int n) {
 }
 
 int main() {
-    int number;
+    int numbers[] = {5, 2, 7, 10, 17, 1};
+    int size = sizeof(numbers) / sizeof(numbers[0]);
 
-    // Input the number to check
-    printf("Enter a positive integer: ");
-    scanf("%d", &number);
-
-    // Check if the number is prime
-    if (is_prime(number)) {
-        printf("%d is a prime number.\n", number);
-    } else {
-        printf("%d is not a prime number.\n", number);
+    // Loop through each number, check if it's prime, and print the result
+    for (int i = 0; i < size; i++) {
+        printf("%d", is_prime(numbers[i]));
     }
+    printf("\n");
 
     return 0;
 }
+
 
