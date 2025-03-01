@@ -6,7 +6,7 @@ int main(){
     for(int i=1;i<=n;i++){
         ch ='A';
         for(int j=1;j<=i;j++){
-            printf("%d",ch);
+            printf("%c",ch);
             ch++;
         }
     }
