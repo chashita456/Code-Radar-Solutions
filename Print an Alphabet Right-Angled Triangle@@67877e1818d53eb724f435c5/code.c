@@ -2,9 +2,9 @@
 int main(){
     int n;
     char ch;
-    for(int i=0;i<=n;i++){
+    for(int i=1;i<=n;i++){
         ch ='A';
-        for(int j=0;j<=i;j++){
+        for(int j=1;j<=i;j++){
             printf("%d",ch);
             ch++;
         }
