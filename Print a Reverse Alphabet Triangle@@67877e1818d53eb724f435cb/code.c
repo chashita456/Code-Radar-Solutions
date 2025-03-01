@@ -10,6 +10,7 @@ int main(){
             ch++;
         }
         printf("\n");
-        return 0;
+        
     }
+    return 0;
 }
