@@ -10,7 +10,7 @@ int main(){
     for(int i=0;i<=a;i++){
         brr[i] =arr[a-i-1];
     }
-    int palidrom=1;
+    int palidrome=1;
     for(int i=0;i<=a;i++){
         arr[i]!=brr[i];
         palidrom =0;
