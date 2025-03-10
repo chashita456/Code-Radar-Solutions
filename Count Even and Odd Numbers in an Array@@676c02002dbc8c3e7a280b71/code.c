@@ -8,10 +8,10 @@ int main(){
     }
     for(int i=0;i<a;i++){
         if(arr[i]%2==0){
-            evennumber = evennumber +arr[i];
+            evennumber++;
         }
         else{
-            oddnumber =oddnumber +arr[i];
+            oddnumber++;
         }
        
     }
