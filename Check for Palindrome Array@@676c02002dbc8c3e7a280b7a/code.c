@@ -12,15 +12,15 @@ int main(){
     }
     int palidrom=1;
     for(int i=0;i<=a;i++){
-        brr[i]!=arr[i];
+        arr[i]!=brr[i];
         palidrom =0;
         break;
     }
     if(palidrome){
-        printf("%d",YES);
+        printf("YES");
     }
     else{
-        printf("%d",NO)
+        printf(NO);
     }
     return o;
 }
