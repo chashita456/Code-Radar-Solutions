@@ -7,7 +7,7 @@ int main(){
     scanf("%d",&arr[i]);
     }
     for(int i=0;i<a;i++){
-        if(i%2==0){
+        if(arr[i]%2==0){
             evennumber = evennumber +i;
         }
         else{
