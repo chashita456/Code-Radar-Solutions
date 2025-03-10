@@ -13,7 +13,7 @@ int main(){
     int palidrome=1;
     for(int i=0;i<=a;i++){
         arr[i]!=brr[i];
-        palidrom =0;
+        palidrome=0;
         break;
     }
     if(palidrome){
