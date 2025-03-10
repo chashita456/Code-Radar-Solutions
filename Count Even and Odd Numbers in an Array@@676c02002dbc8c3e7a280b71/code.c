@@ -12,8 +12,8 @@ int main(){
         }
         else{
             oddnumber =oddnumber +arr[i];
-            printf("%d %d",evennumber,oddnumber);
         }
+        printf("%d %d",evennumber,oddnumber);
     }
     
     return 0;
