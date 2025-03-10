@@ -11,10 +11,10 @@ int main(){
     int smax =INT_MIN;
     for(int i=0;i<a;i++){
         if(max<arr[i]){
-            max=smax;
+            smax=max;
             max=arr[i];
         }
-        else if(smax<arr[i] && arr[i]!=max){
+        else if(smax<arr[i] && max!=arr[i]){
             smax =arr[i];
         }
     }
