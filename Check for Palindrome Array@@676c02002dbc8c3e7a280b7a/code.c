@@ -22,7 +22,7 @@ int main(){
     else{
         printf("NO");
     }
-    return o;
+    return 0;
 }
 
     
