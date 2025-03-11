@@ -10,7 +10,7 @@ int main() {
     int arr[n];  // Declare an array of size n
 
     // Read array elements from the user
-    printf("Enter the elements of the array: ");
+
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
@@ -31,7 +31,7 @@ int main() {
                     printed[j] = 1;  // Mark arr[j] as visited
                 }
             }
-            printf("Element %d occurs %d times\n", arr[i], count);  // Print frequency of arr[i]
+            printf("%d %d" , arr[i], count);  // Print frequency of arr[i]
         }
     }
 
