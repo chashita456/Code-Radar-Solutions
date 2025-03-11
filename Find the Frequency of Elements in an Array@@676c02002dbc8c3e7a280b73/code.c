@@ -11,13 +11,12 @@ int main(){
         for(int j=0;j<a;j++){
             
             if (arr[i]==arr[j]){
-                count++
-                
-                
+                count++;  
             }
         }
         
 
     }
+    printf("%d %d",arr[i],count);
     return 0;
 }
