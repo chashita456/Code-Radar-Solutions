@@ -8,7 +8,7 @@ int main(){
     }
     int printed[a];
         for(int i=0;i<a;i++){
-            printed[i]==0;
+            printed[i]=0;
         }
         for(int i=0;i<a;i++){
             if(printed[i]==0){
