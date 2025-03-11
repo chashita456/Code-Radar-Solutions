@@ -22,9 +22,10 @@ int main(){
     
         }
     }
-    }
     printf("%d %d",arr[i],count);
+    }
     return 0;
+
 }
 
 
