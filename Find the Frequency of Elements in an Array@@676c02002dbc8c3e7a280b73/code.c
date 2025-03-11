@@ -31,7 +31,7 @@ int main() {
                     printed[j] = 1;  // Mark arr[j] as visited
                 }
             }
-            printf("%d  %d", arr[i], count);  // Print frequency of arr[i]
+            printf("%d  %d\n", arr[i], count);  // Print frequency of arr[i]
         }
     }
 
