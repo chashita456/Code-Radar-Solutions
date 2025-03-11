@@ -28,7 +28,7 @@ int main() {
     }
     
     // Print the result
-    printf("Smallest missing positive integer is: %d\n", smallestMissing);
+    printf("%d", smallestMissing);
 
     return 0;
 }
