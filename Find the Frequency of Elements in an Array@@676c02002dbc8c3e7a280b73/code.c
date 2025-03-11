@@ -10,7 +10,7 @@ int main(){
     for(int i =0;i<a;i++){
         for(int j=0;j<a;j++){
             idx = i;
-            if arr[i]==arr[j]{
+            if (arr[i]==arr[j]){
                 printf("%d %d",arr[i],idx);
                 
             }
