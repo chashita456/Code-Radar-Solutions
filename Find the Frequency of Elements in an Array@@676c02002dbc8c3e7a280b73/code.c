@@ -11,10 +11,12 @@ int main(){
         for(int j=0;j<a;j++){
             idx = i;
             if arr[i]==arr[j]{
+                printf("%d %d",arr[i],idx);
                 
             }
         }
         
 
     }
+    return 0;
 }
