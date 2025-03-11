@@ -4,7 +4,7 @@ int main() {
     int n;
 
     // Read the size of the array
-    printf("Enter the number of elements: ");
+    
     scanf("%d", &n);
 
     int arr[n];  // Declare an array of size n
