@@ -2,7 +2,7 @@
 int main(){
     int a,prime =0,count=0;
     scanf("%d",&a);
-    arr[a];
+    int arr[a];
     for(int i=0;i<a;i++){
         scanf("%d",&arr[i]);
     }
