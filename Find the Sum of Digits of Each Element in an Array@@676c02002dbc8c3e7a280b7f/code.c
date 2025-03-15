@@ -26,7 +26,7 @@ int main() {
         }
 
         // Print the sum of digits for the current element
-        printf("%d", , sum);
+        printf("%d",  sum);
     }
 
     return 0;
