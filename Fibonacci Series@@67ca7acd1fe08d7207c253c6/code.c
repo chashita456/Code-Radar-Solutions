@@ -8,12 +8,12 @@ int fib(a){
         return 1;
     }
     else{
-        for(int i=0;i<a;i++){
+        
             fibN =fib(a-1) +fib(a-2);
             return fibN;
         }
-    }
-}
+   }
+
 int main(){
     int a;
     scanf("%d",&a);
