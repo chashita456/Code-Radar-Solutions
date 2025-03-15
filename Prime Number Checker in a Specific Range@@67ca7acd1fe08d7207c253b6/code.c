@@ -19,7 +19,7 @@ int prime(int n, int a){
         int n,a,prime,i,j;
         scanf("%d",&n);
         scanf("%d",&a);
-        int prime(int a);
+        prime(a);
         return 0;
 
     }
