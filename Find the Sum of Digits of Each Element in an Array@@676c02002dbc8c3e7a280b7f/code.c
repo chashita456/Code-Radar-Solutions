@@ -1,22 +1,33 @@
 #include<stdio.h>
 
-int main()
-{
-    int a,n ,digit,sum=0;
-    scanf("%d",&a);
-    scanf("%d",&n);
+int main() {
+    int a, n, digit, sum = 0;
+    
+    // Read the integer a and n
+    scanf("%d", &a);
+    scanf("%d", &n);
+    
+    // Declare the array with size n
     int arr[n];
-    for(int i=0;i<=n;i++){
-    scanf("%d",&arr[i]);
+    
+    // Read the array elements
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
     }
-    while(a!=0){
-        digit= a%10;
-        sum=sum+digit;
-        a=a/10;
+    
+    // Calculate the sum of digits of a
+    while (a != 0) {
+        digit = a % 10;  // Get the last digit
+        sum = sum + digit;  // Add it to sum
+        a = a / 10;  // Remove the last digit
     }
-    printf("%d ",arr[sum]);
-
-
-
+    
+    // Print the value in the array at index 'sum' (if valid)
+    if (sum < n) {
+        printf("%d", arr[sum]);
+    } else {
+        printf("Index out of bounds");
+    }
+    
     return 0;
 }
