@@ -4,7 +4,7 @@ int main(){
     scanf("%d",&n);
     int arr[n];
     for(int i=0;i<n;i++){
-        scanf("%d",&arr[n]); 
+        scanf("%d",&arr[i]); 
     }
     for(int i=0;i<n;i++){
         a=arr[i];
@@ -14,7 +14,7 @@ int main(){
             sum =sum+digit;
             a=a/10;
         }
-        printf("%d %d\n",arr[i],sum);
+        printf("%d %d",arr[i],sum);
 }
 return 0;
 }
