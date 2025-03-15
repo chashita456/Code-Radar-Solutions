@@ -1,10 +1,14 @@
 #include<stdio.h>
 int main(){
-    int n,sum=0;
+    int n,sum;
     scanf("%d",&n);
     int arr[n];
     for(int i=0;i<n;i++){
         scanf("%d",&arr[n]); 
+    }
+    for(int i=0;i<n;i++){
+        num=arr[i];
+        sum=0;
         while(n!=0){
             int digit=n%10;
             sum =sum+digit;
