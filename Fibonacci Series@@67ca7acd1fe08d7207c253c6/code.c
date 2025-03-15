@@ -1,7 +1,7 @@
 #include<stdio.h>
 int fib(int a);
 int fib(int a){
-    if(a==1){
+    if(a==0){
         return 0;
     }
     else if(a==2){
