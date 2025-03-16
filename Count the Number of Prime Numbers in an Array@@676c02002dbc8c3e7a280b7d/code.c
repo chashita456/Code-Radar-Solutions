@@ -12,16 +12,17 @@ int main(){
         prime =0;
     }
     else{
-        for(int j=0;j<a;j++){
+        for(int j=2;j*j<arr[i];j++){
             if(arr[i]%j==0){
                 prime =0;
                 break;
             }
         }
     } 
-}
+
 if(prime){
         count =count +1;
+    }
     }
     printf("%d",count);
     return 0;
