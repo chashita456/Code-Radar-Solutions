@@ -8,17 +8,14 @@ int main(){
     }
     for(int i=0;i<a;i++){
         prime = 1;
-    if(arr[i]<2){
-        prime =0;
-    }
-    else{
+    
         for(int j=2;j*j<=arr[i];j++){
             if(arr[i]%j==0){
                 prime =0;
                 break;
             }
         }
-    } 
+    
 
 if(prime){
         count =count +1;
