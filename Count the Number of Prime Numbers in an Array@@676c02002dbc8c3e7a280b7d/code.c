@@ -8,6 +8,9 @@ int main(){
     }
     for(int i=0;i<a;i++){
         prime = 1;
+         if (arr[i] < 2) {
+            prime = 0; // Numbers less than 2 are not prime
+        } else {
     
         for(int j=2;j*j<=arr[i];j++){
             if(arr[i]%j==0){
