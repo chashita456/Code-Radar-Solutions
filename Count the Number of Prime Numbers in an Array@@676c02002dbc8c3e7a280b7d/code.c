@@ -6,12 +6,14 @@ int main(){
     for(int i=0;i<a;i++){
         scanf("%d",&arr[i]);
     }
+    for(int i=0;i<a;i++){
     
     for(int j=2;j<a/2;j++){
         if(arr[i]%j==0){
             prime = 1;
             break;
         }
+    }
 
     }
     if(prime==0){
