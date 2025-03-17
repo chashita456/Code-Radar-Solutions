@@ -14,7 +14,8 @@ int fib(int a){
         }
    
 
-int main(){
+int main()
+{
     int a;
     scanf("%d",&a);
     printf("%d",fib(a));
