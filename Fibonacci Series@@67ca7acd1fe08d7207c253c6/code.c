@@ -15,8 +15,10 @@ int main(){
     int a;
     scanf("%d",&a);
     if(a<=0){
-        return 1;
+    printf("Invalid input");
     }
+    else{
     printf("%d ",fib(a));
+    }
     return 0;
 }
