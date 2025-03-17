@@ -1,6 +1,6 @@
 #include<stdio.h>
-int printfib(int a);
-int printfib(int a){
+int fib(int a);
+int fib(int a){
     if(a==1){
         return 0;
     }
