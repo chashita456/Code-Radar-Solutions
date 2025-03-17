@@ -1,18 +1,18 @@
 #include<stdio.h>
 int fib(int a);
 int fib(int a){
-    if(a==0){
+    if(a==1){
         return 0;
     }
-    else if(a==1){
+     if(a==2){
         return 1;
     }
-    else{
+    
         
             int fibN =fib(a-1) +fib(a-2);
             return fibN;
         }
-   }
+   
 
 int main(){
     int a;
