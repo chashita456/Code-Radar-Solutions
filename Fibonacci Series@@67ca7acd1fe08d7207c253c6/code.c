@@ -18,7 +18,7 @@ int main(){
     if(a <= 0){
         printf("Invalid input\n");
     } else {
-        printf("%d", a, fib(a));
+        printf("%d", fib(a));
     }
     return 0;
 }
