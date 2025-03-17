@@ -17,6 +17,6 @@ int main(){
     if(a<=0){
         return 1;
     }
-    printf("%d",fib(a));
+    printf("%d ",fib(a));
     return 0;
 }
