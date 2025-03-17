@@ -14,6 +14,9 @@ int fib(int a){
 int main(){
     int a;
     scanf("%d",&a);
+    if(a<=0){
+        return 1;
+    }
     printf("%d",fib(a));
     return 0;
 }
