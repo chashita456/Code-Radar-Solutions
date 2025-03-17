@@ -13,12 +13,12 @@ int fib(int a){
 
 int main(){
     int a;
-    printf("Enter the position of the Fibonacci number: "); // Prompt for input
+    
     scanf("%d", &a);
     if(a <= 0){
         printf("Invalid input\n");
     } else {
-        printf("Fibonacci number at position %d is %d\n", a, fib(a));
+        printf("%d", a, fib(a));
     }
     return 0;
 }
