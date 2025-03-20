@@ -22,5 +22,5 @@ int main(){
     else{
         printf("NO");
     }
-    retutrn 0;
+    return 0;
     }
