@@ -3,28 +3,24 @@ int main(){
     int a;
     scanf("%d",&a);
     int arr[a];
-    for(int i=0;i<a;i++){
-        scanf("%d",&arr[i]);
-    }
     int brr[a];
     for(int i=0;i<a;i++){
-        brr[i] =arr[a-i-1];
+    scanf("%d",&arr[i]);
     }
-    int palidrome=1;
     for(int i=0;i<a;i++){
-        if(arr[i]!=brr[i]){
-        palidrome=0;
-        break;
-        }
+        brr[i] = arr[a-i-1];
     }
-    if(palidrome){
+    int palindrome =1;
+    for(int i=0;i<a;i++){
+        if(arr[i]!=brr[i]){;
+        palindrome =0;
+        break;
+    }
+    if(palindrome ==1){
         printf("YES");
     }
     else{
         printf("NO");
     }
-    return 0;
-}
-
-    
-
+    retutrn 0;
+    }
