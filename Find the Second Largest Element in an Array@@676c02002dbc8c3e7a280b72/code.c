@@ -9,7 +9,7 @@ int main(){
     }
     int max = INT_MIN;
     int smax = INT_MIN;
-    for(int i=1;i<a;i++){
+    for(int i=0;i<a;i++){
         if (max<arr[i]){
             smax =max;
             max =arr[i];
