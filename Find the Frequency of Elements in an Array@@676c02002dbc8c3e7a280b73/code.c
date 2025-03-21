@@ -5,9 +5,10 @@ int main(){
     int arr[a];
     for(int i=0;i<a;i++){
         scanf("%d",&arr[i]);
-    }
+    
     for(int j=i+1;i<a;i++){
         scanf("%d",&arr[j]);
+    }
     }
     for(int i=0;i<a;i++){
         for(int j=i+1;j<a;j++){
