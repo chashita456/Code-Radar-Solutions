@@ -18,7 +18,9 @@ int main(){
             
         }
     }
+    for(int i=0;i<a;i++){
     printf("%d %d",i,count);
+    }
     return 0;
 
 }
