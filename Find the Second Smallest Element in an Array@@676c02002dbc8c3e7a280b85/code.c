@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<limits.h>
 int main(){
-    int a;
+    int a,found =1;
     scanf("%d",&a);
     int arr[a];
     for(int i=0;i<=a;i++){
@@ -17,8 +17,15 @@ int main(){
         else if(smin>arr[i] && min != arr[i]){
                 smin =arr[i];  
         }
+        found =1;
         
     }
-    printf("%d",smin);
+    if(found ==1){
+        printf("%d",smin);
+    }
+    else{
+        printf("-1");
+    }
+    
     return 0;
 }
