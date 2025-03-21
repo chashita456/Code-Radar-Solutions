@@ -8,7 +8,7 @@ int main(){
     scanf("%d",&arr[i]);
     }
     int min = INT_MAX;
-    int smin = INT_MIN;
+    int smin = INT_MAX;
     for(int i=0;i<a;i++){
         if(min>arr[i]){
             smin = min;
