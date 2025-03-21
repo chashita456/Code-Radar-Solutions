@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<limits.h>
 int main(){
-    int a,found =1;
+    int a,found =0;
     scanf("%d",&a);
     int arr[a];
     for(int i=0;i<a;i++){
@@ -21,7 +21,7 @@ int main(){
         
         
     }
-    if(found){
+    if(found==1){
         printf("%d",smin);
     }
     else{
