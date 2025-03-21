@@ -4,7 +4,9 @@ int main(){
     int a;
     scanf("%d",&a);
     int arr[a];
+    for(int i=0;i<=a;i++){
     scanf("%d",&arr[i]);
+    }
     int min = INT_MAX;
     int smin = INT_MIN;
     for(int i=0;i<a;i++){
