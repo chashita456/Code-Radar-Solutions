@@ -19,7 +19,7 @@ int main(){
         }
     }
     for(int i=0;i<a;i++){
-    printf("%d %d",i,count);
+    printf("%d\n %d\n",i,count);
     }
     return 0;
 
