@@ -1,15 +1,14 @@
 #include<stdio.h>
 int main(){
-    int n;
-    scanf("%d",&n);
-    char ch;
-    for(int i=1;i<=n;i++){
-        ch ='A';
-        for(int j=1;j<=i;j++){
-            printf("%c ",ch);
+    int a;
+    scanf("%d",&a);
+    for(int i=0;i<a;i++){
+        char = 'A';
+        for(int j=0;j<a;j++ ){
+            printf("%c",ch);
             ch++;
         }
-        printf("\n");
+
     }
     return 0;
 }
