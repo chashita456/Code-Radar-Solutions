@@ -6,9 +6,10 @@ int main(){
     for(int i=1;i<=a;i++){
         ch = 'A';
         for(int j=a;j>=i;j--){
-            printf("%c",ch);
+            printf("%c ",ch);
             ch++;
     } 
+    printf("\n");
 }
 return 0;
 }
