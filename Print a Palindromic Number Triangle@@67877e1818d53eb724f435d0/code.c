@@ -2,15 +2,15 @@
 int main(){
     int a;
     scanf("%d",&a);
-    for(int i=0;i<=a;i++){
-        for(int j=a;j>=i;j--){
-            printf(" ");
+    for(int i=1;i<=a;i++){
+        for(int j=1;j<=n-1;j--){
+            for(int k=1;K<=i;k++){
+                printf("*");
+            }
+            for(int k=i-1;k>=1;k--){
+                printf("*");
+            }
         }
-        for(int k=0;k<=2*a+1;k++){
-            printf("%d",k);
-        }
-        printf("\n");
-
     }
     return 0;
 }
