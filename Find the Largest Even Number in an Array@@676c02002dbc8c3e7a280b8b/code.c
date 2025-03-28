@@ -11,7 +11,7 @@ int main(){
     int found =0;
     for(int i=0;i<a;i++){
         if(arr[i]>max && arr[i]%2==0){
-            arr[i]=max;
+            max=arr[i];
             found=1;
         }
     }
