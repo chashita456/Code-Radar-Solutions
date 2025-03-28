@@ -22,7 +22,7 @@ int main(){
 
     }
     for(int i=0;i<a;i++){
-    printf("%d %d",arr[i],count);
+    printf("%d %d\n",arr[i],count);
     }
     return 0;
 
