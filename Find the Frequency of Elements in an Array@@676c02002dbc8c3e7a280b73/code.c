@@ -3,6 +3,7 @@ int main(){
     int a;
     scanf("%d",&a);
     int arr[a];
+    int printed[a];
     for(int i=0;i<a;i++){
         scanf("%d",&arr[i]);
         printed[i]==0;
