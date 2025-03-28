@@ -11,7 +11,7 @@ int main(){
     int smin =INT_MAX;
     int found =0;
     for(int i=0;i<a;i++){
-        if(arr(i)<min){
+        if(arr[i]<min){
             smin = min;
             min = arr[i];
         }
