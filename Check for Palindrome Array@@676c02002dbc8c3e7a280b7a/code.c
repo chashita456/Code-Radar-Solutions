@@ -13,9 +13,11 @@ int main(){
         brr[i]= arr[a-i-1];
     }
     int palindrome=1;
+    for(int i=0;i<a;i++){
     if(brr[i]!=arr[i]){
         palindrome==0;
         break 0;
+    }
     }
     if(palindrome==1){
         printf("YES");
