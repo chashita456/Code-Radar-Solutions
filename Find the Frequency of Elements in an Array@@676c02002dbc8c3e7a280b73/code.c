@@ -11,8 +11,9 @@ int main(){
     
 
     for(int i=0;i<a;i++){
-        int count =1;
+        
         if(printed[i]==0){
+            int count =1;
         for(int j=i+1;j<a;j++){
             if(arr[i] == arr[j]){
                 count =count +1;
