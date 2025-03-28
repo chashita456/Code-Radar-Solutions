@@ -21,7 +21,7 @@ int main(){
         }
         
     }
-    if(found){
+    if(found==1){
         printf("%d",smin);
     }
     else{
