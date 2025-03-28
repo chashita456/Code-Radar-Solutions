@@ -12,7 +12,7 @@ int main(){
     }
     int palindrome =1;{
         for(int i=0;i<a;i++){
-            if(arr[i]==brr[i]){
+            if(arr[i]!=brr[i]){
             palindrome =0;
             break;
             }
