@@ -1,25 +1,23 @@
 #include<stdio.h>
 #include<limits.h>
 int main(){
-    int a,found;
+    int a;
     scanf("%d",&a);
-    int arr[a];
     for(int i=0;i<a;i++){
-    scanf("%d",&arr[i]);
+        scanf("%d",&arr[i]);
     }
-    int min = INT_MAX;
-    int smin = INT_MAX;
+    int min =INT_MAX;
+    int smin =INT_MAX;
+    int found =0;
     for(int i=0;i<a;i++){
-        if(min>arr[i]){
+        if(arr(i)<min){
             smin = min;
-            min =arr[i];
+            min = arr[i];
         }
-        else if(smin>arr[i] && min != arr[i]){
-                smin =arr[i];
-                found =1;
+        else if(smin>arr[i] && min!=arr[i]){
+            smin = arr[i];
         }
-        
-        
+        found =1;
     }
     if(found==1){
         printf("%d",smin);
@@ -27,6 +25,5 @@ int main(){
     else{
         printf("-1");
     }
-    
     return 0;
 }
