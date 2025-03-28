@@ -19,7 +19,7 @@ int main(){
         printf("%d",max);
     }
     else{
-        printf("no even number exist");
+        printf("-1");
     }
     return 0;
 
