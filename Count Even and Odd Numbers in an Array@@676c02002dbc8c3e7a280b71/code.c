@@ -1,23 +1,21 @@
 #include<stdio.h>
 int main(){
-    int a,evennumber=0,oddnumber=0;
+    int a;
     scanf("%d",&a);
     int arr[a];
     for(int i=0;i<a;i++){
-    scanf("%d",&arr[i]);
+        scanf("%d",&arr[i]);
     }
+    int evencount =0;
+    int oddcount =0;
     for(int i=0;i<a;i++){
         if(arr[i]%2==0){
-            evennumber++;
+            evencount = evencount +1;
         }
         else{
-            oddnumber++;
+            oddcount = oddcount +1;
         }
-       
     }
-    printf("%d %d",evennumber,oddnumber);
+    printf("%d %d",evencount,oddcount);
     return 0;
-    
-
 }
-
