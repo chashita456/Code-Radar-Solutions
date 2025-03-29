@@ -9,7 +9,7 @@ int main(){
     }
     for(int i=0;i<a;i++){
         int num =arr[i],sum =0;
-    while(a!=0){
+    while(num!=0){
 
         int digit = num%10;
         sum = sum+digit;
