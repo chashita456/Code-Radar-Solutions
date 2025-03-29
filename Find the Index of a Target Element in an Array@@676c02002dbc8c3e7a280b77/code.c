@@ -13,6 +13,7 @@ int main(){
         if(arr[i]==b){
             idx=i;
             found=1;
+            break;
             
 
         
