@@ -8,12 +8,22 @@ int main(){
         scanf("%d",&arr[i]);
     }
     int idx =-1;
+    int found =0;
     for(int i=0;i<a;i++){
         if(arr[i]==b){
             idx=i;
+            found=1;
+            break;
+
         
         }
     }
-    printf("%d",idx);
-    return 0;
+    if(found==1){
+        printf("%d",idx);
+    }
+    else{
+        printf("-1");
+    }
+
+    
 }
