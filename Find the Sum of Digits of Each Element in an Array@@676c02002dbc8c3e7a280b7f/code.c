@@ -1,16 +1,22 @@
 #include<stdio.h>
 int main(){
-    int n,sum;
-    scanf("%d",&n);
-    int arr[n];
-    for(int i=0;i<n;i++){
-        scanf("%d",&arr[i]); 
+    int a;
+    scanf("%d",&a);
+    int sum =0;
+    int arr[a];
+    for(int i=0;i<a;i++){
+    scanf("%d",&arr[i]);
     }
-    for(int i=0;i<n;i++){
-        sum =sum+arr[i];
+    while(a!=0){
+        int digit = arr[a]%10;
+        sum = sum+digit;
+        arr[a]= arr[a]\10;
     }
     printf("%d",sum);
     return 0;
+    
+    
+
 }
     
 
