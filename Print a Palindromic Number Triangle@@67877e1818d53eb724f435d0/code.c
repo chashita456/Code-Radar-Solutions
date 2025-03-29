@@ -12,6 +12,7 @@ int main(){
         for(int k=a;k>=1;k--){
             printf("%d",k);
         }
+        printf("\n");
 
     }
     return 0;
