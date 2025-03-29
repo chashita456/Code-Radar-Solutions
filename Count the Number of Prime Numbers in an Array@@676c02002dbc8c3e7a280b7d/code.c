@@ -14,7 +14,7 @@ int main(){
         }
         else{
     
-    for(int j=0;j<i/2;j++){
+    for(int j=2;j<i/2;j++){
         if(arr[j]%i==0){
             prime=0;
             break;
