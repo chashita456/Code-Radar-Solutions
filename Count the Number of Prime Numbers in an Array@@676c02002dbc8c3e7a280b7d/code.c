@@ -7,10 +7,19 @@ int main(){
         scanf("%d",&arr[i]);
     }
     int prime =0;
-    for(int i=0;i<a/2;i++){
-        if(arr[i]%a==0){
+    for(int i=0;i<a;i++){
+        prime=1;
+        if(arr[i]<2){
+            prime=0;
+        }
+        else{
+    
+    for(int j=0;j<i/2;j++){
+        if(arr[j]%i==0){
             prime=0;
             break;
+        }
+    }
         }
     }
     
