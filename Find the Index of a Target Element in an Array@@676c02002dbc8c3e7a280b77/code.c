@@ -12,6 +12,7 @@ int main(){
     for(int i=0;i<a;i++){
         if(arr[i]==b){
             idx=i;
+            break;
         }
     }
     printf("%d",idx);
