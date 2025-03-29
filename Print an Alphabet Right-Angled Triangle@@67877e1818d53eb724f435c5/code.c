@@ -2,14 +2,12 @@
 int main(){
     int a;
     scanf("%d",&a);
-    char ch;
-    for(int i=1;i<=a;i++){
-        ch = 'A';
-        for(int j=1;j<=i;j++){
-            printf("%c ",ch);
+    char ch ;
+    for(int i=0;i<=a;i++){
+        ch ='A';
+        for(int j =0;j<=a;j++){
+            printf("%d",ch);
             ch++;
         }
-        printf("\n");
     }
-    return 0;
 }
