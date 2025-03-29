@@ -12,20 +12,8 @@ int main(){
     for(int i=0;i<a;i++){
         if(arr[i]==b){
             idx=i;
-            found=1;
-            break;
-            
-
-        
         }
     }
-    if(found==1){
-        printf("%d",idx);
-    }
-    else{
-        printf("-1");
-    }
-    return 0;
-
+    printf("%d",idx);
     
 }
