@@ -13,7 +13,7 @@ int main(){
             break;
         }
     }
-    int count =0;
+    
     if(prime==1){
         count =count+1;
     }
