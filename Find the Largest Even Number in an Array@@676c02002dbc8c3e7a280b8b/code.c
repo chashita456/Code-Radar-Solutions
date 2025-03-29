@@ -13,7 +13,7 @@ int main(){
         if(arr[i]>max && arr[i]%2==0){
             max=arr[i];
             found=1;
-            break;
+            
         }
     }
     if(found==1){
