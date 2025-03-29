@@ -13,8 +13,9 @@ int main(){
             break;
         }
     }
+    int count =0;
     for(int i=0;i<a;i++){
-        int count =1;
+        
         if(prime==1){
             count =count +1;
         }
