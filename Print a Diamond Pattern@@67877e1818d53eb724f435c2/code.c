@@ -2,16 +2,23 @@
 int main(){
     int a;
     scanf("%d",&a);
-    if(a==2){
-        printf(" *\n***\n *");
+    for(int i=1;i<=a;i++){
+        for(int j=a-i-1;j>=0;j--){
+            printf(" ");
+        }
+        for(int k=0;k<2*i-1;k++){
+            printf("*");
+        }
+        printf("\n");
     }
-    else if(a==3){
-        printf("  *\n ***\n*****\n ***\n  *");
-    }
-    else if(a==4){
-        printf("   *\n  ***\n ***** \n*******\n *****\n  ***\n   *");
-
+    for(int i=a-2;i>=0;i--){
+        for(int j=a-i-2;j>=0;j--){
+            printf(" ");
+        }
+        for(int k=0;k<2*i+1;k++){
+            printf("*");
+        }
+        printf("\n");
     }
     return 0;
-
 }
