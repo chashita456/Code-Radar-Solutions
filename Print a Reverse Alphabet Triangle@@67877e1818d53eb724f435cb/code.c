@@ -3,9 +3,9 @@ int main(){
     int a;
     scanf("%d",&a);
     char ch;
-    for(int i=1;i<=a;i++){
-        ch = 'D';
-        for(int j=a;j>=i;j--){
+    for(int i=a;i>=1;i--){
+        ch = 'A';
+        for(int j=1;j<=i;j++){
             printf("%c ",ch);
             ch--;
     } 
