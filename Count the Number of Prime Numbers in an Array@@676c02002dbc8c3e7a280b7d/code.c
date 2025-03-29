@@ -16,7 +16,7 @@ int main(){
     for(int i=0;i<a;i++){
         int count =0;
         if(prime==1){
-            count =count +1
+            count =count +1;
         }
         printf("%d",count);
     
