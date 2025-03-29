@@ -3,7 +3,7 @@ int main(){
     int a;
     scanf("%d",&a);
     int arr[a];
-    for(int i=0;i<a;i++){
+    for(int i=0;i<a/2;i++){
         scanf("%d",&arr[i]);
     }
     int prime =0;
