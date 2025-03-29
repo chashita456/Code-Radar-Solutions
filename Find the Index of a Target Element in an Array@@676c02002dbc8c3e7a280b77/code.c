@@ -14,15 +14,11 @@ int main(){
             idx =i;
             found =1;
         }
-
-
-    }
     if(found==1){
         printf("%d",idx);
     }
     else{
         printf("-1");
     }
+    }
     return 0;
-
-}
