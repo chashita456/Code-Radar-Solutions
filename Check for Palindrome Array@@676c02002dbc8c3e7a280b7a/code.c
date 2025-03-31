@@ -5,25 +5,26 @@ int main(){
     int arr[a];
     int brr[a];
     for(int i=0;i<a;i++){
-        scanf("%d",&arr[i]);
+        scanf("%d",&a);
     }
     for(int i=0;i<a;i++){
-        brr[i]= arr[a-i-1];
+        brr[i]=arr[a-i-1];
     }
-    int palindrome =1;{
-        for(int i=0;i<a;i++){
-            if(arr[i]!=brr[i]){
-            palindrome =0;
+    int palindrome =1;
+    for(int i=0;i<a;i++){
+        if(brr[i]!=arr[i]){
+            palindrome=0;
             break;
-            }
-
         }
     }
-    if(palindrome){
+    if(palindrome==1){
         printf("YES");
     }
     else{
         printf("NO");
     }
     return 0;
+
+
+
 }
