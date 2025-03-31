@@ -16,12 +16,13 @@ int main(){
 
 
         }
-    }
+    
     if(found==1){
         printf("%d",arr[i]);
     }
     else{
         printf("-1");
+    }
     }
     return 0;
 }
