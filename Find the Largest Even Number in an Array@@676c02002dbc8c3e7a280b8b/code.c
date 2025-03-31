@@ -5,7 +5,7 @@ int main(){
     scanf("%d",&a);
     int arr[a];
     int found =0;
-    for(int i=0;i<=a;i++){
+    for(int i=0;i<a;i++){
         scanf("%d",&arr[i]);
     }
     int max = INT_MIN;
@@ -16,6 +16,7 @@ int main(){
 
 
         }
+    }
     
     if(found==1){
         printf("%d",max);
@@ -23,6 +24,6 @@ int main(){
     else{
         printf("-1");
     }
-    }
+    
     return 0;
 }
