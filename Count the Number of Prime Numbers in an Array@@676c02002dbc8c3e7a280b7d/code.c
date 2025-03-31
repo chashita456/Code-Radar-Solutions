@@ -1,35 +1,21 @@
 #include<stdio.h>
 int main(){
-    int a,prime=0,count=0;
+    int a,int count =0;
     scanf("%d",&a);
     int arr[a];
     for(int i=0;i<a;i++){
         scanf("%d",&arr[i]);
     }
-    for(int i=0;i<a;i++){
-        prime=1;
-        if(arr[i]<2){
+    int prime =0;
+    for(int i=0;i<a/2;i++){
+        if(arr[i]%a==0){
             prime=0;
+            break;
         }
-        else{
-            for(int j=2;j<=arr[i]/2;j++){
-                if(arr[i]%j==0){
-                    prime=0;
-                    break;
-                }
-            }
-        }
-        if(prime==1){
+    }
+    if(prime==1){
         count =count +1;
     }
-    }
-
-
-
-    
-    
     printf("%d",count);
-
-
-return 0;
+    return 0;
 }
