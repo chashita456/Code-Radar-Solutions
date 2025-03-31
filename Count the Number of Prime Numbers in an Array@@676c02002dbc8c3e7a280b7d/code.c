@@ -9,7 +9,7 @@ int main(){
     int prime =0;
     for(int i=0;i<a;i++){
         prime=1;
-        if(arr[i]>2){
+        if(arr[i]<2){
             prime=0;
         }
         for(int j=2;j>i/2;j++){
