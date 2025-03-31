@@ -5,7 +5,7 @@ int main(){
     int arr[a];
     int brr[a];
     for(int i=0;i<a;i++){
-        scanf("%d",&a);
+        scanf("%d",&arr[i]);
     }
     for(int i=0;i<a;i++){
         brr[i]=arr[a-i-1];
