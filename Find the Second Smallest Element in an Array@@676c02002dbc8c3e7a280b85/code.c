@@ -19,7 +19,8 @@ int main(){
         }
 
     }
-    printf("%d",arr[i]);
+    
+    printf("%d",smin);
     return 0;
 
 }
