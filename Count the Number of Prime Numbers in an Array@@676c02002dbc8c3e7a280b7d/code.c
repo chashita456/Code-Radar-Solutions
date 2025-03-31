@@ -7,14 +7,20 @@ int main(){
         scanf("%d",&arr[i]);
     }
     int prime =0;
-    for(int i=2;i<a/2;i++){
-        
+    for(int i=0;i<a;i++){
         prime=1;
-        if(arr[i]%a==0){
+        if(arr[i]>2){
             prime=0;
-            break;
+        }
+        for(int j=2;j>i/2;j++){
+            if(i%j==0){
+                prime=0;
+                break;
+            }
         }
     }
+
+    
     if(prime==1){
         count =count +1;
     }
