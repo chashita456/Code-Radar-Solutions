@@ -18,7 +18,7 @@ int main(){
         }
     
     if(found==1){
-        printf("%d",arr[i]);
+        printf("%d",max);
     }
     else{
         printf("-1");
