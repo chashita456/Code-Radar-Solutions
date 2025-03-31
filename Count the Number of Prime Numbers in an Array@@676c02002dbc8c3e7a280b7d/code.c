@@ -12,18 +12,22 @@ int main(){
         if(arr[i]<2){
             prime=0;
         }
+        else{
         for(int j=2;j>i/2;j++){
-            if(i%j==0){
+            if(arr[i]%j==0){
                 prime=0;
                 break;
             }
         }
     }
+    
 
     
     if(prime==1){
         count =count +1;
     }
+
     printf("%d",count);
+    }
     return 0;
 }
