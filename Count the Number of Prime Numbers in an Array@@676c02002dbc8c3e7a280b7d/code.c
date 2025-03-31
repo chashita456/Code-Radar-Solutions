@@ -3,11 +3,12 @@ int main(){
     int a;int count =0;
     scanf("%d",&a);
     int arr[a];
-    for(int i=0;i<a;i++){
+    for(int i=2;i<a;i++){
         scanf("%d",&arr[i]);
     }
     int prime =0;
-    for(int i=0;i<a/2;i++){
+    for(int i=2;i<a/2;i++){
+        
         prime=1;
         if(arr[i]%a==0){
             prime=0;
