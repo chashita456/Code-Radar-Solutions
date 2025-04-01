@@ -3,10 +3,10 @@ int main()
 {
     int n;
     scanf("%d",&n);
-    if(a==1){
+    if(n==1){
         printf("*");
     }
-    elseif(a==2){
+    elseif(n==2){
         printf(" *\n**");
     }
     return 0;
