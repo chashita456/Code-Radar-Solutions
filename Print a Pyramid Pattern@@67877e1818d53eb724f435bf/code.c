@@ -6,10 +6,13 @@ int main(){
         for(int j=a;j>=i;j--){
             printf(" ");
         }
+        for(int k=0;k<2*i-1;k++){
+        printf("*");
+
     
-    for(int k=0;k<2*i-1;k++){
-        printf("%d",k);
+    
     }
+    printf("\n");
     }
     return 0;
 }
