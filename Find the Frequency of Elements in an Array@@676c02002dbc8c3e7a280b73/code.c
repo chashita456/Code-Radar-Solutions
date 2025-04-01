@@ -16,7 +16,7 @@ int main(){
                     count =count +1;
                 }
             }
-            printf("%d",count);
+            printf("%d %d", arr[i],count);
         }
     }
         
