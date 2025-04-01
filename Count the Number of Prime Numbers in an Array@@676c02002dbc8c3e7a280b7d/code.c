@@ -14,18 +14,19 @@ int main(){
 
         }
         else{
-        for(int j=0;j<i/2;j++){
+        for(int j=2;j<arr[i]/2;j++){
             if(arr[i]%j==0){
                 prime=0;
                 break;
             }
         }
         }
-    }
+    
         if(prime==1){
             count =count +1;
         }
         printf("%d",count);
+    }
     
     return 0;
 }
