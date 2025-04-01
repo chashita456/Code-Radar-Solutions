@@ -25,8 +25,9 @@ int main(){
         if(prime==1){
             count =count +1;
         }
-        printf("%d",count);
+        
     }
+    printf("%d",count);
     
     return 0;
 }
