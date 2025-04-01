@@ -6,7 +6,7 @@ int main()
     if(n==1){
         printf("*");
     }
-    elseif(n==2){
+    else if(n==2){
         printf(" *\n**");
     }
     return 0;
