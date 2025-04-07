@@ -1,11 +1,10 @@
 #include<stdio.h>
 int main(){
     char str[100];
-    int count =0;
-    scanf("%s",str);
-    for(int i=0;str[i]!='\0';i++){
-        if(ch == 'a' || ch == 'e' || ch == 'i' || ch =='o' ch =='u'){
-            count = count +1;
+    l = strlen(str);
+    for(i=0;i<l;i++){
+        if(str[i]=='a' || str[i]=='e'|| str[i]=='i' || str[i]=='o' || str[i]=='u'){
+            count =count+1;
         }
 
     }
