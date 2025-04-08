@@ -7,8 +7,11 @@ int main(){
     len = strlen(str);
     for(int i=0;i<len;i++){
         for(int j=i+1;j<len;j++){
-            if(i=)
+            if(i==j){
+                printf("%s",i);
+            }
         }
 
     }
+    return 0;
 }
