@@ -1,8 +1,9 @@
 #include<stdio.h>
 #include<string.h>
 int main(){
+    int len;
     char str[100];
-    gets(str);
+    fgets(str);
     len = strlen(str);
     int count =0;
     for(int i=0;i<=len-1;i++){
