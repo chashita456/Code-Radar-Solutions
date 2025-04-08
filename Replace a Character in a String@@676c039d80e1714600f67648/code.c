@@ -9,9 +9,9 @@ int main(){
     scanf("%s",&a);
     scanf("%s",&b);
     for(int i=0;str!='\0';i++){
-        temp = a;
-        a=b;
-         
+        if(str[i]=='a'){
+            str[i]== b;
+        }
     }
     printf("%s",str);
     return 0;
