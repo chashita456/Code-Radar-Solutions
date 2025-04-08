@@ -21,9 +21,8 @@ int main(){
         max = count;
         mostFrequent = str[i];
     }
-    
-    printf("%s",str[i]);
     }
+    printf("%s",mostfrequent);
     return 0;
 }
 
