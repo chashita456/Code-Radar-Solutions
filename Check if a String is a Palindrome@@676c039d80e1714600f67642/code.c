@@ -10,11 +10,11 @@ int main(){
    
     for(int i=0; i<len;i++){
         if(str[i] != str[len-i-1]){
-            palindome = 0;
+            palindrome = 0;
             break;
         }
     }
-    if(palindome == 1){
+    if(palindrome == 1){
         printf("Yes");
     }
     else{
