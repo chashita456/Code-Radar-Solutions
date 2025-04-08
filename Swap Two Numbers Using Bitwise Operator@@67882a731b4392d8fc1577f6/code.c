@@ -13,7 +13,7 @@ int main() {
     b = a ^ b;  // (a ^ b) ^ b = a
     a = a ^ b;  // (a ^ b) ^ a = b
 
-    printf("  %d,  %d", a, b);
+    printf("  %d,  %d", a b);
 
     return 0;
 }
