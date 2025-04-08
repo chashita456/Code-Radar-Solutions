@@ -5,6 +5,7 @@ int main(){
     int count =0;
     int  str1[256]= {0};
 
+    printf("");
     scanf("%s",str);
 
     
