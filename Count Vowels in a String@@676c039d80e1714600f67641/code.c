@@ -7,7 +7,8 @@ int main(){
     len = strlen(str);
     int count =0;
     for(int i=0;i<=len-1;i++){
-    if(str[i] == 'a' || str[i] == 'e' || str[i] == 'i' || str[i]=='o' || str[i]=='u')
+    if(str[i] == 'a' || str[i] == 'e' || str[i] == 'i' || str[i]=='o' || str[i]=='u' || str[i] =='A' || str[i] == 'E' || str[i] == 'O' || str[i]=='U')
+
 {
         count =count +1;
     }
