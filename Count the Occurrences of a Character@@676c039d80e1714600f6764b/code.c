@@ -12,7 +12,7 @@ int main(){
         for(int j=i+1;str[j]!='\0';j++){
             if(str[i]==str[j]){
                 count =count +1;
-                str[j]=1;
+                str1[j]=1;
             }
         }
         
