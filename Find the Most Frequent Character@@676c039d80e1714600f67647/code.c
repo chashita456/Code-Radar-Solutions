@@ -16,7 +16,7 @@ int main(){
     
 
         if(maxcount<count){
-            maxcount = count;
+            max = count;
             mostfrequent = str[i];
         }
     }
