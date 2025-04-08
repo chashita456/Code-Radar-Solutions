@@ -11,7 +11,7 @@ int main(){
     for(int i=0;str!='\0';i++){
         temp = a;
         a=b;
-        b=temp;  
+         
     }
     printf("%s",str);
     return 0;
