@@ -16,6 +16,6 @@ int main() {
         num = num >> 1;  // Right shift to check next bit
     }
 
-    printf("Trailing zeros: %d\n", count);
+    print("%d\n", count);
     return 0;
 }
