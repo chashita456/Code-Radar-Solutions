@@ -7,18 +7,19 @@ int main(){
     char mostfrequent;
     for(int i =0;str[i]!=0;i++){
         int count =1;
-        if(str[i]=='' && "\n"){
+        if(str[i]=='' || "\n"){
         for(int j=i+1;str[j]!='\0';j++){
-            if(arr[i]==arr[j]){
+            if(str[i]==str[j]){
                 count =count +1;
             }
         }
-        }
+    
 
         if(maxcount<count){
             maxcount = count;
             mostfrequent = str[i];
         }
+    }
     }
     
 
