@@ -19,7 +19,7 @@ int main(){
     
     if(max<count){
         max = count;
-        mostfrequent = str[i];
+        mostFrequent = str[i];
     }
     }
     printf("%s",str[i]);
