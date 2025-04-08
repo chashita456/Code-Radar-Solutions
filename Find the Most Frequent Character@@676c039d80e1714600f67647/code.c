@@ -22,7 +22,7 @@ int main(){
         mostFrequent = str[i];
     }
     }
-    printf("%s",mostfrequent);
+    printf("%s",mostFrequent);
     return 0;
 }
 
