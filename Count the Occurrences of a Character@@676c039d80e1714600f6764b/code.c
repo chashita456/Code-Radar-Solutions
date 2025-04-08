@@ -2,9 +2,10 @@
 #include<string.h>
 int main(){
     char str[100];
-    scanf("%s",str);
     int count =0;
     int  str1[256]= {0};
+
+    scanf("%s",str);
 
     
     for(int i=0;str[i]!='\0';i++){
