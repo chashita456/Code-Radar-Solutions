@@ -1,17 +1,27 @@
-#include<stdio.h>
-#include<string.h>
-int main(){
+#include <stdio.h>
+#include <string.h>
+
+int main() {
     char str[100];
-    int len =0;
-    fgets(str,sizeof(str),stdin);
-    len = strlen(str);
-    for(int i=0;i<len;i++){
-        for(int j=i+1;j<len;j++){
-            if(i==j){
-                printf("%s",i);
+    int freq[256] = {0};  // To store frequency of each ASCII character
+    int max = 0;
+    char mostFrequent;
+
+    printf("Enter a string: ");
+    fgets(str, sizeof(str), stdin);
+
+    // Count frequency of each character
+    for(int i = 0; str[i] != '\0'; i++) {
+        char ch = str[i];
+        if(ch != ' ' && ch != '\n') {
+            freq[(int)ch]++;
+            if(freq[(int)ch] > max) {
+                max = freq[(int)ch];
+                mostFrequent = ch;
             }
         }
-
     }
+
+    printf("Most frequent character: '%c' occurred %d times\n", mostFrequent, max);
     return 0;
 }
