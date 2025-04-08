@@ -4,7 +4,7 @@ int main(){
     char str[100];
     fgets(str,sizeof(str),stdin);
     int max =0;
-    char most frequent;
+    char mostfrequent;
     for(int i =0;str[i]!=0;i++){
         int count =1;
         if(str[i]=='' && "\n"){
