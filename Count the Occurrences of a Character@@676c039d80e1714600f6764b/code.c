@@ -7,12 +7,12 @@ int main(){
 
     
     for(int i=0;str[i]!='\0';i++){
-        if(str1[i] ==0){
+        if(!str1[(unsigned char)str[i]]){
         
         for(int j=i+1;str[j]!='\0';j++){
             if(str[i]==str[j]){
                 count =count +1;
-                str1[j]=1;
+            str1[(unsigned char)str[j]] = 1
             }
         }
         }
