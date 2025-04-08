@@ -16,10 +16,11 @@ int main(){
                 }
             }
         }
-    }
+    
     if(max<count){
         max = count;
         mostfrequent = str[i];
+    }
     }
     printf("%s",str[i]);
     return 0;
