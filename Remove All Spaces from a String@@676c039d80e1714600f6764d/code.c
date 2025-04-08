@@ -9,8 +9,9 @@ int main(){
             str[j]=str[i];
             j++;
         }
-        str[j]='\0';
+        
     }
+    str[j]='\0';
     printf("%s",str);
     return 0;
 }
