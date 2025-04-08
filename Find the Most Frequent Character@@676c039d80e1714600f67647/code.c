@@ -2,7 +2,7 @@
 #include<string.h>
 int main(){
     char str[100];
-    gets(str,sizeof(str),stdin);
+    fgets(str,sizeof(str),stdin);
     int max =0;
     char most frequent;
     for(int i =0;str[i]!=0;i++){
