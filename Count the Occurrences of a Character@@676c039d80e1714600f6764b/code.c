@@ -2,8 +2,8 @@
 #include<string.h>
 int main(){
     char str[100];
-    int count =0;
-    int  str1[256]= {0};
+    int count=0;
+    int  str1[256]={0};
 
     printf("");
     scanf("%s",str);
