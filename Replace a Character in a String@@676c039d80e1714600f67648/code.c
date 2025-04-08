@@ -7,7 +7,7 @@ int main(){
     scanf("%s",str);
     scanf("%c",&a);
     scanf("%c",&b);
-    for(int i=0;str!='\0';i++){
+    for(int i=0;str[i]!='\0';i++){
         if(str[i]== a){
             str[i]== b;
         }
