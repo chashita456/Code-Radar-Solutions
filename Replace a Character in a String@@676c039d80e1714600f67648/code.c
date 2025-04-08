@@ -8,7 +8,7 @@ int main(){
     scanf("%s",str);
     scanf("%s",&a);
     scanf("%s",&b);
-    for(int i=0;str!='\0',i++){
+    for(int i=0;str!='\0';i++){
         temp = a;
         a=b;
         b=temp;  
