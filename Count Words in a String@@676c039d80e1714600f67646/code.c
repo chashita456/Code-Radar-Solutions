@@ -1,17 +1,14 @@
-#include <stdio.h>
-int main()
-{
-    int a;
-    scanf("%d",&a);
-    for(int i=0;i<=a;i++){
-        for(int j=a-i-1;j>=0;j--){
-            printf(" ");
+#include<stdio.h>
+#include<string.h>
+int main(){
+    char str[100];
+    scanf("%s",str);
+    int word =1;
+    for(int i=0;str[i]!='\0';i++){
+        if(str[i] == ' '&& str[i+1] != " " && str[i+1] != '\0' ){
+            word = word +1;
         }
-        for (int k=0;k<=2*i+1;k++){
-            printf("*");
-        }
-        printf("\n");
     }
-
+    printf("%d",word);
     return 0;
 }
