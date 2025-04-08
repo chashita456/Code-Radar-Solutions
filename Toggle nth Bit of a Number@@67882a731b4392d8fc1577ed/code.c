@@ -11,7 +11,7 @@ int main() {
 
     result = num ^ (1 << n);  // Toggle the nth bit
 
-    printf("%d" result);
+    printf("%d", result);
 
     return 0;
 }
