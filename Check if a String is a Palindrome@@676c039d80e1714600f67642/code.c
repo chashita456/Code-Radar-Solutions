@@ -7,7 +7,7 @@ int main(){
     scanf("%s",str);
     len =strlen(str);
     char str1[100];
-    str1 = str;
+    str1 == str;
     for(int i= len -1; i>=0;i--){
         if(str[i] == str1[i]){
             printf("Yes");
