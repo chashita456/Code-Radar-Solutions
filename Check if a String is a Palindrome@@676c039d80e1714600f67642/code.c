@@ -6,15 +6,20 @@ int main(){
     int len =0;
     scanf("%s",str);
     len =strlen(str);
-    char str1[100];
-    str1 == str;
-    for(int i= len -1; i>=0;i--){
-        if(str[i] == str1[i]){
-            printf("Yes");
+    int palindrome = 1;
+   
+    for(int i=0; i<len;i++){
+        if(str[i] != str[len-i-1]){
+            palindome = 0;
+            break;
         }
-        else{
-            printf("No");
-        }
+    }
+    if(palindome == 1){
+        printf("Yes");
+    }
+    else{
+        printf("No");
     }
     return 0;
 }
+        
