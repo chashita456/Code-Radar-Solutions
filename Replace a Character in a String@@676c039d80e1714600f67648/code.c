@@ -4,12 +4,11 @@ int main(){
     char str[100];
     char a;
     char b;
-    char temp;
     scanf("%s",str);
     scanf("%s",&a);
     scanf("%s",&b);
     for(int i=0;str!='\0';i++){
-        if(str[i]=='a'){
+        if(str[i]== a){
             str[i]== b;
         }
     }
