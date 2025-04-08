@@ -4,7 +4,7 @@ int main() {
     unsigned int num;
     int count = 0;
 
-    printf("Enter a number: ");
+    
     scanf("%u", &num);  // unsigned to avoid issues with sign bit
 
     if (num == 0) {
