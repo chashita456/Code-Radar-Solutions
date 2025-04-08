@@ -8,6 +8,6 @@ int main(){
     fgets(s1,sizeof(s1),stdin);
     
     strcat(s,s1);
-    printf("%s",s);
+    printf("%s\n",s);
     return 0;
 }
