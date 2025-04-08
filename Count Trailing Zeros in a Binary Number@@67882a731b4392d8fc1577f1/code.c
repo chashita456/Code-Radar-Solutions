@@ -16,6 +16,6 @@ int main() {
         num = num >> 1;  // Right shift to check next bit
     }
 
-    print("%d\n", count);
+    printf("%d\n", count);
     return 0;
 }
