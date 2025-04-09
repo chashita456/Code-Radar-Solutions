@@ -10,8 +10,8 @@ int main() {
         int flag = 0;
         
         // Compare with every other character
-        for (int j = i+1; str[j] != '\0'; j++) {
-            if (  str[i] == str[j]) {
+        for (int j = 0; str[j] != '\0'; j++) {
+            if ( i!=j && str[i] == str[j]) {
                 flag = 1;  // Found a duplicate
                 break;
             }
