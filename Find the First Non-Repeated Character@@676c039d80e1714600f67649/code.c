@@ -5,6 +5,7 @@ int main(){
     fgets(str,sizeof(str),stdin);
     int flag =0;
     for(int i=0;str[i]!=0;i++){
+        found =0;
         for(int j= i+1;str[j]!=0;j++){
             if(str[i]=str[j]){
                flag =1;
