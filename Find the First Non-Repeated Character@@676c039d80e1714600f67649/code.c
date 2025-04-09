@@ -20,7 +20,7 @@ int main() {
         }
 
         if (flag == 0) {
-            printf("First non-repeated character: %c\n", str[i]);
+            printf("%c", str[i]);
             return 0; // Done after first non-repeated character
         }
     }
