@@ -18,6 +18,6 @@ int main(){
 
         }
     }
-    printf("%s",mostfrequent);
+    printf("%s",mostfrequrnt);
     return 0;
 }
