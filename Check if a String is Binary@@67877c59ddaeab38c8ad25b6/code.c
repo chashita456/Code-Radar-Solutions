@@ -5,7 +5,7 @@ int main(){
     fgets(str,sizeof(str),stdin);
     int flag =0;
     for(int i=0;str[i]!='\0';i++){
-        if(str[i]!='1' && str[i]!=0){
+        if(str[i]!='1' && str[i]!='0'){
             flag=1;
             break;
         }
