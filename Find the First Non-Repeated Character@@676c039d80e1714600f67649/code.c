@@ -11,7 +11,7 @@ int main() {
         
         // Compare with every other character
         for (int j = i+1; str[j] != '\0'; j++) {
-            if ( && str[i] == str[j]) {
+            if (  str[i] == str[j]) {
                 flag = 1;  // Found a duplicate
                 break;
             }
