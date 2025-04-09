@@ -10,10 +10,10 @@ int main(){
             printf("No");
         }
         for(int i=0;str[i]!='\0';i++){
-            count(str -'a')++;
+            count(str[i] -'a')++;
         }
          for(int i=0;str1[i]!='\0';i++){
-            count(str1 -'a')--;
+            count(str1[i] -'a')--;
         }
         for(int i=0;i<26;i++){
             if(count[i]!=0){
