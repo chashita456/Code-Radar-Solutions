@@ -1,48 +1,31 @@
 #include<stdio.h>
 int main(){
     int a,b;
-    char A;
-    scanf("%d",&a);
-    scanf("%d",&b);
-    scanf("%d",&A);
-    switch(A){
-        case '+':
-        printf("%d",a+b);
-        break;
-        case '-':
-        printf("%d",a-b);
-        break;
-        case '*':
-        printf("%d",a*b);
-        break;
-        case '/':
-        if(b!=0){
-            printf("%d",a/b);
-
-        }
+    char c;
+    scanf("%d %d %c",&a,&b,&c);
+    if(c=='+'){
+        int result=a+b;
+        printf("%d",result);
+    }
+    else if(c=='-'){
+        int difference=a-b;
+        printf("%d",difference);
+    }
+    else if(c=='*'){
+        int product=a*b;
+        printf("%d",product);
+    }
+    else if(c=='/'){
+        if (b!=0){
+        int Division=a/b;
+        printf("%d",Division);
+    }
         else{
             printf("error");
         }
-        break;
-        default:
-        printf("error");
-        break;
+    }
+    else{
+        printf("error\n");
     }
     return 0;
 }
-
-        
-        
-        
-    
-    
-    
-
-
-    
-
-
-    
-    
-
-
