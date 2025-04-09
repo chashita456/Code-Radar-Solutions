@@ -7,6 +7,7 @@ int main(){
     char mostfrequrnt;
     for(int i=0;str[i]!='\0';i++){
         int count =0;
+        if(str[i] == '' || str[i] == "\n"){
         for(int j =i+1;str[j]!='\0';j++){
             if(str[i]==str[j]){
                 count =count +1;
@@ -16,6 +17,7 @@ int main(){
             max = count;
             mostfrequrnt = str[i];
 
+        }
         }
     }
     printf("%s",mostfrequrnt);
