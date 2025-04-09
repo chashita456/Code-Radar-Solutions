@@ -7,11 +7,11 @@ int main(){
     int j =0;
 
     for(int i=0;str[i]!=0;i++){
-        if(str[i]=='a'||str[i]=='e'||str[i]=='0'||str[i]=='u'||str[i]=='A'|| str[i]=='E'|| str[i]=='O'|| str[i]=='U'){
-           str1[j++]=str;
+        if(str[i]=='a'||str[i]=='e'||str[i]=='o'||str[i]=='u'||str[i]=='A'|| str[i]=='E'|| str[i]=='O'|| str[i]=='U'){
+           str1[j++]=str[i];
         }
     }
-    str[j]='\0';
+    str1[j]='\0';
     printf("%s",str1);
     return 0;
 }
