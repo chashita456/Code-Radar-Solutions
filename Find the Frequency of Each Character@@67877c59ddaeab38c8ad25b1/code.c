@@ -15,7 +15,7 @@ int main(){
                     visited[j]=1;
                 }   
         }
-        printf("%c: %d",str[i],count);
+        printf("%c\n: %d",str,count);
         return 0;
 
     }
