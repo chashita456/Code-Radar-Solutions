@@ -24,6 +24,6 @@ int main() {
         }
     }
 
-    printf("No non-repeated character found.\n");
+    printf("No");
     return 0;
 }
