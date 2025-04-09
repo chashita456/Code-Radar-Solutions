@@ -1,26 +1,19 @@
-#include <stdio.h>
-#include <string.h>
-
-int main() {
+#include<stdio.h>
+#include<string.h>
+int main(){
     char str[100];
-    int count = 0;
-    int str1[256] = {0};  // Initialize frequency tracker
-
-    printf("");
-    scanf("%s", str);
-
-    for (int i = 0; str[i] != '\0'; i++) {
-        if (!str1[(unsigned char)str[i]]) {  
-            str1[(unsigned char)str[i]] = 1;  // Mark the first appearance
-            
-            for (int j = i + 1; str[j] != '\0'; j++) {
-                if (str[i] == str[j]) {
-                    count++;
-                }
+    scanf("%s",str);
+    int count =0;
+    for(int i=0;str[i]!='\0';i++){
+        for(int j=i+1;str[j]!='\0';j++){
+            if(str[i]==str[j]){
+                count = count +1;
             }
-        }
-    }
 
-    printf("%d\n", count);
+        }
+
+    }
+    printf("%d",count);
     return 0;
+
 }
