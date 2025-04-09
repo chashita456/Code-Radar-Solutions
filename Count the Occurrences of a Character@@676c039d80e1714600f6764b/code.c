@@ -4,17 +4,19 @@
 int main() {
     char str[100];
     int count = 0;
-    int visited[100] = {0};
+    int freq[256] = {0};  // To handle all ASCII characters
 
     scanf("%s", str);
 
+    // Count frequency of each character
     for (int i = 0; str[i] != '\0'; i++) {
-        if (visited[i]) continue;  // Skip already counted characters
-        for (int j = i + 1; str[j] != '\0'; j++) {
-            if (str[i] == str[j]) {
-                count++;
-                visited[j] = 1;  // Mark this character as visited
-            }
+        freq[(int)str[i]]++;
+    }
+
+    // Count characters that appear more than once
+    for (int i = 0; i < 256; i++) {
+        if (freq[i] > 1) {
+            count++;
         }
     }
 
