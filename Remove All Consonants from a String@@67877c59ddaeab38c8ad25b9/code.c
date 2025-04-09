@@ -7,7 +7,7 @@ int main(){
     int j =0;
 
     for(int i=0;str[i]!=0;i++){
-        if( (str[i]>='1' && str[i]<='9')str[i]=='a'||str[i]=='e'|| str[i]=='i'   ||str[i]=='o'||str[i]=='u'||str[i]=='A'|| str[i]=='E'|| str[i]=='O'|| str[i]=='U'|| str[i]=='I'||str[i]== ' '){
+        if( (str[i]>='1' && str[i]<='9')||str[i]=='a'||str[i]=='e'|| str[i]=='i'   ||str[i]=='o'||str[i]=='u'||str[i]=='A'|| str[i]=='E'|| str[i]=='O'|| str[i]=='U'|| str[i]=='I'||str[i]== ' '){
            str1[j++]=str[i];
         }
     }
