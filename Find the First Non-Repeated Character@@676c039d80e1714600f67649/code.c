@@ -20,10 +20,9 @@ int main() {
 
         if (flag == 0) {
             printf("%c", str[i]);
+            return 0;
         }
-        else{
-            printf("-");
-        }
+        
     }
 
     
