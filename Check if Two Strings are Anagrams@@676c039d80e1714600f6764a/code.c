@@ -19,11 +19,11 @@ int main(){
         }
         for(int i=0;i<26;i++){
             if(count[i]!=0){
-                printf("NO");
+                printf("No");
                 return 0;
             }
         }
-        printf("YES");
+        printf("Yes");
         return 0;
     
     
