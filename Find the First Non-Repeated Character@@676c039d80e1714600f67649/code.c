@@ -3,12 +3,17 @@
 int main(){
     char str[100];
     fgets(str,sizeof(str),stdin);
+    int flag =0;
     for(int i=0;str[i]!=0;i++){
         for(int j= i+1;str[j]!=0;j++){
             if(str[i]!=str[j]){
-                printf("%c",str[i]);
+               flag =0;
                 break;
             }
         }
     }
+    if(flag==0){
+        printf("%c",str[i]);
+    }
+    return 0;
 }
