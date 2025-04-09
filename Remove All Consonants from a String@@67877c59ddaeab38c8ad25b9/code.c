@@ -2,18 +2,16 @@
 #include<string.h>
 int main(){
     char str[100];
+    char str1[100];
     fgets(str,sizeof(str),stdin);
-    int flag =0;
+    int j =0;
+
     for(int i=0;str[i]!=0;i++){
         if(str[i]=='a'||str[i]=='e'||str[i]=='0'||str[i]=='u'||str[i]=='A'|| str[i]=='E'|| str[i]=='O'|| str[i]=='U'){
-           flag =1;
+           str1[j++]=str;
         }
     }
-    if(flag==1){
-        printf("%s",str);
-    }
-    else{
-        printf("");
-    }
+    str[j]='\0';
+    printf("%s",str1);
     return 0;
 }
