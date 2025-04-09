@@ -7,7 +7,7 @@ int main(){
     fgets(str, sizeof(str), stdin);
     for(int i=1;str[i]!='\0';i++){
         if(str[i] == ' '&& str[i+1] != ' ' && str[i+1] != '\0'){
-            printf("%d \t",str[i]);
+            printf("%s \t",str[i]);
             word = word +1;
         }
     }
