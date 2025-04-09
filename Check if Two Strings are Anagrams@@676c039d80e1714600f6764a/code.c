@@ -10,6 +10,7 @@ int main(){
     
         if(strlen(str)!=strlen(str1)){
             printf("No");
+            return 0;
         }
         for(int i=0;str[i]!='\0';i++){
             count[str1[i] - 'a']++;
