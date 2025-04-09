@@ -2,7 +2,7 @@
 #include <string.h>
 int main(){
     char str[100];
-    cahr substr[100];
+    char substr[100];
     fgets(str,sizeof(str),stdin);
     fgets(substr,sizeof(substr),stdin);
     if(strstr(str,substring) != NULL){
