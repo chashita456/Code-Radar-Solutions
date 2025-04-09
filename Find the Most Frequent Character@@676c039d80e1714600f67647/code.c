@@ -20,6 +20,6 @@ int main(){
         }
         }
     }
-    printf("%s",mostfrequrnt);
+    printf("%c",mostfrequrnt);
     return 0;
 }
