@@ -5,7 +5,7 @@ int main(){
     char substr[100];
     fgets(str,sizeof(str),stdin);
     fgets(substr,sizeof(substr),stdin);
-    if(strstr(str,substring) != NULL){
+    if(strstr(str,substr) != NULL){
         printf("Yes");
     }
     else{
