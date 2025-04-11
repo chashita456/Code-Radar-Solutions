@@ -4,6 +4,7 @@ int main(){
     char  str[100];
     char d;
     scanf("%c",&d);
+    getchar();   
     scanf("%s",str);
     
     for(int i=0;str[i]!='\0';i++){
