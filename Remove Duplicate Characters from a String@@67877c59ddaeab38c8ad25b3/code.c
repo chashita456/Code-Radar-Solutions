@@ -2,8 +2,10 @@
 #include<string.h>
 int main(){
     char str[100];
+    char result[100];
     char visited[100]={0};
     int duplicate =0;
+    int k;
     
     fgets(str,sizeof(str),stdin);
     for(int i=0;str[i]!='\0';i++){
@@ -15,7 +17,8 @@ int main(){
             }
     
     if(duplicate==0){
-        printf("%s",str[i]);
+        printf("%s",str);
+        
     }   
     } 
     return 0;
