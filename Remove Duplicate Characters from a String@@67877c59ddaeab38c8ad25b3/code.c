@@ -13,10 +13,11 @@ int main(){
                     break;
                 }
             }
-    }
+    
     if(isduplicate==1){
         printf("%s",str[i]);
-    }    
+    }   
+    } 
     return 0;
 }
     
