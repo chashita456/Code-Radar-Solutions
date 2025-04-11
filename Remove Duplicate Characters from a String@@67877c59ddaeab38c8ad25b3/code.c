@@ -12,7 +12,7 @@ int main() {
         duplicate = 0;
 
         // Check if character already appeared before
-        for (int j = 0; j < i; j++) {
+        for (int j = i+1; str[j]!='\0'; j++) {
             if (str[i] == str[j]) {
                 duplicate = 1;
                 break;
