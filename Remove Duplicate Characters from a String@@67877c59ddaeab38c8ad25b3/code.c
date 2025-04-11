@@ -16,7 +16,7 @@ int main(){
                 }
             }
     
-    if(duplicate==0){
+    if(duplicate!=1){
         printf("%s",str);
         
     }   
