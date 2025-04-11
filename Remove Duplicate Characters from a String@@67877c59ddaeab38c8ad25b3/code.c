@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<string.h>
 int main(){
-    char string[100];
+    char str[100];
     int duplicate =0;
     scanf("%s",str);
     for(int i=0;str[i]!=0;i++){
