@@ -8,10 +8,11 @@ int main(){
     for(int i=0;str[i]!='\0';i++){
         if(visited[i]==1)
         continue;
+        int count =1;
 
 
             for(int j=i+1;str[j]!=0;j++){
-                if(arr[i]==arr[j]){
+                if(str[i]==str[j]){
                 count = count +1;
                 visited[j]=1;
                 }
