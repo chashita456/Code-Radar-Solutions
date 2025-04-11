@@ -14,7 +14,7 @@ int main(){
     }
     for(int j=0;str[j]!=0;j++){
         len = strlen(str);
-        if(str[j] == str[len-i-1]){
+        if(str[j] == str[len-j-1]){
         printf("Yes");
         }
         else{
