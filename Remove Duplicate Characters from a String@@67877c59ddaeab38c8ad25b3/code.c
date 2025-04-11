@@ -2,7 +2,7 @@
 #include<string.h>
 int main(){
     char str[100];
-    int duplicate =0;
+    int duplicate;
     scanf("%s",str);
     for(int i=0;str[i]!=0;i++){
         duplicate =0;
@@ -13,7 +13,7 @@ int main(){
             }
         }
         if(duplicate==0){
-            printf("%c",str);
+            printf("%c",str[i]);
         }
     }
     return 0;
