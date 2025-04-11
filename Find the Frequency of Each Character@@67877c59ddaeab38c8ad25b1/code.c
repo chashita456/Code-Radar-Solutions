@@ -11,8 +11,10 @@ int main(){
 
 
             for(int j=i+1;str[j]!=0;j++){
+                if(arr[i]==arr[j]){
                 count = count +1;
                 visited[j]=1;
+                }
             }
         
         printf("%s: %d",str[i],count);
