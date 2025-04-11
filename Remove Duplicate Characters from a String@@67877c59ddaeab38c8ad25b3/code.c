@@ -10,17 +10,20 @@ int main(){
     fgets(str,sizeof(str),stdin);
     for(int i=0;str[i]!='\0';i++){
         for(int j=i+1;str[j]!=0;j++){
-                if(str[i]!=str[j]){
+                if(str[i]==str[j]){
                     duplicate =1;
                     break;
                 }
             }
     
-    if(duplicate=1){
-        printf("%s",str);
+    if(duplicate==0){
+        result[k++]= str[i];
+        
         
     }   
     } 
+    result[k]='\0';
+    printf("%s",result);
     return 0;
 }
     
