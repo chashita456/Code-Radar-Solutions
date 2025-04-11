@@ -2,21 +2,18 @@
 #include<string.h>
 int main(){
     char str[100];
-    fgets(str,sizeof(str),stdin);
-   
-    int visited[100] ={0};
+    char visited[100];
+    int count =0;
+    getsf(str,sizeof(str),stdin);
     for(int i=0;str[i]!='\0';i++){
-         int count =0;
-   
-        if(visited[i]) continue;
-        for(int j=i+1;str[j]!='\0';j++){
-                if(str[i]==str[j]){
-                    count = count +1;
-                    visited[j]=1;
-                }   
+        if(visited[i]==0){
+            for(int j=i+1;str[j]!=0;j++){
+                count = count +1;
+                visited[j]=1;
+            }
         }
-        printf("%c: %d",str,count);
-        return 0;
-
+        printf("%s: %d",str[i],count);
     }
+    return 0;
+    
 }
