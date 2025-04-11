@@ -5,8 +5,7 @@ int main() {
     int i, j, k = 0;
     int isDuplicate;
 
-    // Input string
-    printf("Enter a string: ");
+    
     fgets(str, sizeof(str), stdin);
 
     // Loop through the string
