@@ -9,8 +9,9 @@ int main(){
     for(int i=0;str[i]!=0;i++){
         len = strlen(str);
         if(len<maxlen){
-            printf("str[i]");
+            len = maxlen;
         }
+        printf("%s",len);
     
 
 
