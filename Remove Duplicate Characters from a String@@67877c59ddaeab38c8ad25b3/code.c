@@ -1,29 +1,36 @@
-#include<stdio.h>
-#include<string.h>
-int main(){
-    char str[100];
-    char result[100];
-    char visited[100]={0};
-    int duplicate =0;
-    int k;
-    
-    fgets(str,sizeof(str),stdin);
-    for(int i=0;str[i]!='\0';i++){
-        for(int j=i+1;str[j]!=0;j++){
-                if(str[i]==str[j]){
-                    duplicate =1;
-                    break;
-                }
+#include <stdio.h>
+
+int main() {
+    char str[100], result[100];
+    int i, j, k = 0;
+    int isDuplicate;
+
+    // Input string
+    printf("Enter a string: ");
+    fgets(str, sizeof(str), stdin);
+
+    // Loop through the string
+    for (i = 0; str[i] != '\0'; i++) {
+        isDuplicate = 0;
+
+        // Check if this character has appeared before
+        for (j = 0; j < i; j++) {
+            if (str[i] == str[j]) {
+                isDuplicate = 1;
+                break;
             }
-    
-    if(duplicate==0){
-        result[k++]= str[i];
-        
-        
-    }   
-    } 
-    result[k]='\0';
-    printf("%s",result);
+        }
+
+        // If not duplicate, add it to result
+        if (!isDuplicate) {
+            result[k++] = str[i];
+        }
+    }
+
+    // Null-terminate the result string
+    result[k] = '\0';
+
+    printf("String after removing duplicates: %s", result);
+
     return 0;
 }
-    
