@@ -3,18 +3,18 @@
 int main(){
     char str[100];
     char visited[100]={0};
-    isduplicate =0;
+    int duplicate =0;
     
     fgets(str,sizeof(str),stdin);
     for(int i=0;str[i]!='\0';i++){
         for(int j=i+1;str[j]!=0;j++){
                 if(str[i]==str[j]){
-                    isduplicate =1;
+                    duplicate =1;
                     break;
                 }
             }
     
-    if(isduplicate==1){
+    if(duplicate==0){
         printf("%s",str[i]);
     }   
     } 
