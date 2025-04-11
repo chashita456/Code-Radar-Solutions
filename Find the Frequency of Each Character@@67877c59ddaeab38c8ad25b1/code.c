@@ -18,7 +18,7 @@ int main(){
                 }
             }
         
-        printf("%s: %d",str[i],count);
+        printf("%c: %d",str[i],count);
     }
     return 0;
     
