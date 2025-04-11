@@ -30,7 +30,7 @@ int main() {
     // Null-terminate the result string
     result[k] = '\0';
 
-    printf("String after removing duplicates: %s", result);
+    printf("%s", result);
 
     return 0;
 }
