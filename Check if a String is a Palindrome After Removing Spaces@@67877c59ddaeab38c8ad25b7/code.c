@@ -10,7 +10,10 @@ int main(){
             j++;
         }
     }
-    str[j]='\0';
-    printf("%s",str);
+    if(str == str[len-i-1]){
+        printf("Yes");
+    }
+    else{
+        printf("NO");
+    }
     return 0;
-}
